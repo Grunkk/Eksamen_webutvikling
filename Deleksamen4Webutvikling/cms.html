@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+        <!--Hentet fra en oppgave vi har jobbet med tidligere. Den får nettsiden til å funke bedre i flere nettlesere-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="font/css/fontawesome.css" rel="stylesheet">
+        <link href="font/css/solid.css" rel="stylesheet">
+        <link href="font/css/brands.css" rel="stylesheet">
+        <!--https://fontawesome.com/-->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <!--https://favicon.io/favicon-generator/-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <!--https://fonts.google.com/specimen/Roboto-->
+        <title>Webutvikling Deleksamen 4, CMS</title>
+    </head>
+<body>
+    <header>
+        <h1>Tittel</h1>
+        <a href="index.html"><img src="favicon_io/favicon-32x32.png"></i></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-snowflake"></i></a></li>
+            <!--https://fontawesome.com/icons/snowflake?s=solid&f=classic-->
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="uu-vs-seo.html">UU vs SEO</a></li>
+            <li><a href="cms.html">CMS</a></li>
+            <li><a href="analyse.html">Analyse</a></li>
+            <li><a href="kontakt.html">Kontakt oss</a></li>
+        </ul>
+    </nav>
+    <main class="article-oppgave">
+        <h3>CMS</h3>
+        <article class="artikkel">
+            <!--<img src="bilder/skating.jpg" alt="bilde av is og noen som står på skøyter">-->
+            <h4>Headless og tradisjonell CMS</h4>
+             <p>CMS (Content managment system) er et system for websider som lar deg enkelt og raskt opprette og endre nettsider. CMS lar deg lage og publisere data (bilder, tekst osv.) uten at du trenger noe koding. Selve dataen er lagret i en database, men du kan laste ned themes som endrer utseende og plugins som gjør at du kan tilpasse siden din enda mer.  Dette gjør at personer uten noe særlig kode kompetanse kan lage, vedlikeholde og endre på nettsider. Denne typen av CMS blir kalt tradisjonell, men en annen måte som har blitt populær kalles Headless CMS.</p>
+             <p>Headless CMS håndterer fortsatt dataen, men styrer ikke utseende til nettsiden. Dataen blir hentet gjennom en API fra CMS-en og så kan man hva man vil til å endre på utseende (Frontend) til nettsiden. Det at man kan bruke hva slags program eller framework til å endre på utseende til siden gjør at mange foretrekker Headless over Tradisjonell, men Headless krever mer kompetanse fra utvikleren.</p>
+
+            <ul>
+                <li><h4>Component Content Management System (CCMS)</h5><p>CCMS er en CMS som lar deg lage, vedlikeholde, endre og bruke gjenbrukbare komponenter. Komponenter er bygd opp av for eksempel ord, setninger eller bilder og CCMS lagrer disse. Disse komponentene kan da bli brukt til å lage sider. Gjennom CCMS kan du da bruke til å se hvor disse komponentene er brukt. Hvis du gjør en endring i en komponent så kan vil disse endringene automatisk skje alle steder du har brukt komponenten.</p></li>
+
+                <li><h4>Document Management System (DMS)</h5><p>DMS er et system som lar deg lagre og behandle digitale dokumenter. Det blir brukt i organisasjoner slik at de organisere dokumentene og lett hente og finne dokumentene. Det holder også styr på hvem som bruker dokumentet og sørger for at ikke flere kan overskrive det noen andre holder på med. DMS har også versjon kontroll så man kan se endringer og eventuelt rulle tilbake hvis det har skjedd noe feil med dokumentet eller en feil endring</p></li>
+
+                <li><h4>Enterprise Content Management System (ECM)</h5><p>ECM blir brukt til i bedrifter for å motta, lagre, organisere og lever informasjon til en bruker ved hjelp av prosesser, strategier og verktøy. ECM er veldig viktig for bedrifter slik at alle ansatte får og finner dokumenter og informasjon de trenger for å kunne gjøre jobben sin. EMC kan også ha søke funksjoner så brukere kan søke etter dokumenter og så åpne, printe eller endre dokumentet. EMC sletter også gammel data som ikke blir brukt som gjør at bedriften kan spare penger og plass.</p></li>
+
+                <li><h4>Web Content Management System (WCMS)</h5><p>WCMS er en type CMS som lar deg håndtere forskjellige typer informasjon på nettsiden din med å lage dynamisk innhold uten noe tidligere kunnskap om webutvikling. Innholdet blir lagret i en database og så kan man endre på utseende til siden i en browser interface.</p></li>
+
+                <li><h4>Digital Asset Management System (DAM)</h5><p>DAM er et system for å lagre, organisere, finne, hente ut og dele digitalt innhold som for eksempel bilder, videoer, musikk, dokumenter osv. All dataen blir lagret i et slags «bibliotek» som brukere kan søke opp filene de trenger. Mange DAM tjenester gir også muligheten til å gi filer tags og søke etter filer med filters som gjør det enda lettere å søke opp filer. DAM systemer pleier også å være skybasert som gjør at du kan få lett tilgang til biblioteket uansett hvor de er.</p></li>
+            </ul>
+            <section class="kilder">
+            <h4>Kilder:</h4>
+            <a href="https://www.contentstack.com/blog/all-about-headless/api-doesnt-make-headless-cms/">https://www.contentstack.com/blog/all-about-headless/api-doesnt-make-headless-cms/</a>
+            <a href="https://medium.com/tribalscale/headless-vs-traditional-cms-which-is-better-3388bd6311b1">https://medium.com/tribalscale/headless-vs-traditional-cms-which-is-better-3388bd6311b1</a>
+            <a href="https://www.contentstack.com/cms-guides/headless-cms-vs-traditional-cms/">https://www.contentstack.com/cms-guides/headless-cms-vs-traditional-cms/</a>
+            <a href="https://www.mentimeter.com/app/presentation/alug53jbdcanf8sobtepwfwd1n2ov3vd/vzphojjxhkzu">https://www.mentimeter.com/app/presentation/alug53jbdcanf8sobtepwfwd1n2ov3vd/vzphojjxhkzu</a>
+            <a href="https://www.ixiasoft.com/types-of-content-management-systems/">https://www.ixiasoft.com/types-of-content-management-systems/</a>
+            <a href="https://www.youtube.com/watch?v=Dftb4N3xVk4">https://www.youtube.com/watch?v=Dftb4N3xVk4</a>
+            <a href="https://hygraph.com/blog/what-is-a-component-content-management-system">https://hygraph.com/blog/what-is-a-component-content-management-system</a>
+            <a href="https://www.aiim.org/what-is-document-imaging">https://www.aiim.org/what-is-document-imaging</a>
+            <a href="https://www.techtarget.com/searchcontentmanagement/definition/enterprise-content-management-ECM">https://www.techtarget.com/searchcontentmanagement/definition/enterprise-content-management-ECM</a>
+            <a href="https://www.hyland.com/en/resources/terminology/enterprise-content-management">https://www.hyland.com/en/resources/terminology/enterprise-content-management</a>
+            <a href="https://www.techtarget.com/searchcontentmanagement/definition/web-content-management-WCM">https://www.techtarget.com/searchcontentmanagement/definition/web-content-management-WCM</a>
+            </section>
+
+            <img src="bilder/skating.jpg" alt="bilde av is og noen som står på skøyter">
+        </article>
+        
+        <div class="tabell">
+            <div class="column-overskrift">
+                <div class="usynlig-rad"></div>
+                <div class="rad-overskrift2">Fordeler</div>
+                <div class="rad-overskrift2">Ulemper</div>
+                <div class="rad-overskrift2">Likheter</div>
+            </div>
+            <div class="column">
+                <div class="rad-overskrift">CCMS</div>
+                <div class="rad">Det er flere fordeler med å bruke CCMS. Det første er jo det at man kan gjenbruke komponenter som gjør at mye tid kan bli spart når man jobber i et prosjekt. En annen fordel er at man har kontroll på hvem og hva som har blitt endret. En annen stor fordel er at alt er på ett sted som gjør det lett finne det du vil og eventuelt dele det med andre. Det siste er en mer generell fordel, men det gjør prosesser raskere og gjør arbeid mer effektivt. Har mulighet til å rulle tilbake endringer å se tidligere versjoner</div>
+                <div class="rad">Ved starten av nye prosjekter så kan det ta tid å se igjennom komponenter som finnes fra før av og å lage nye komponenter for det nye prosjektet. Det tar også generelt litt ressurser å vedlikeholde og opprettholde CCMS-en og passe på komponenter. Det å implementere dette i en bedrift kan være en utfordring fordi det krever mye arbeid å gjøre om tidligere arbeid til komponenter.</div>
+                <div class="rad">Som de to andre så er CCMS bygd opp på at man har en database med data så man kan bruke å finne ting på nytt. Det at alt er sentralt i på ett sted gjør at man kommer fort i gang med prosjekter. Dette fører til en annen likhet som ikke er så bra. Det at all dataen skal inn i en database gjør jo at det er tidskrevende og dyrt å implementere system. En annen likhet er det at det er lett å dele data med andre som skaper bedre workflow. En likhet med DMS er at begge har versjonlogger og mulighet til å rulle tilbake til tidligere versjoner.</div>
+            </div>
+            <div class="column">
+                <div class="rad-overskrift">DMS</div>
+                <div class="rad">DMS lar deg effektivt organisere dokumenter digitalt og slipper mye fysisk papirer. Det er cloudbasert som gjør det lettere å få tak i dokumentene uansett hvor du og funker på mobil. Har mulighet til å rulle tilbake endringer å se tidligere versjoner. Kan også gi noen brukere tilgang til spesifikke dokumenter som gjør at sensitiv informasjon ikke kommer i feil hender.</div>
+                <div class="rad">Tar mye tid og penger å implementere i en bedrift siden alle dokumenter (papir og digitalt) skal legges inn i systemet. Sikkerhet på et høyere nivå kan være svakere siden de har tilgang til dokumenter overalt så kan ansatte når de er andre steder enn jobben miste tilgang til enheten. Siden det er cloud så kan også potensiell «hacking» være et problem.</div>
+                <div class="rad">Som både CCMS og DAM så er DMS bygd opp på en database der all data blir lagret. Dette gjør det lettere å finne dokumenter man trenger, og deling av dokumenter er veldig lett. Som de to andre så krever det svært mye å implementere dette i en bedrift siden det alle dokumenter må inn i databasen for at det skal fungere. I dette tilfellet så kan det være ekstra krevende siden mye dokumenter kan være i papirform som krever scanning. DMS og CCMS har begge versjon funksjoner som lar deg sjekke tidligere versjoner av dokumenter og eventuelt rulle tilbake endringer</div>
+            </div>
+            <div class="column">
+                <div class="rad-overskrift">DAM</div>
+                <div class="rad">DAM gir deg mulighet til å lage et bibliotek med all digital data som for eksempel bilder, videoer, dokumenter osv. Det kan lett søkes opp av de ansatte og brukes i prosjekter. Det er også muligheter for deling som gir bedre «workflow» i bedriften. DAM har alt på ett sted og lett å finne frem ved hjelp av tags du kan gi filene du har i biblioteket.</div>
+                <div class="rad">Tar tid å implementere siden man må bruke tid på å flytte all dataen inn i biblioteket og gi dem gode tags. Som fører til den neste ulempen som er dårlige tag, det er viktig å ha en god struktur på hvordan man skal organisere dataen spesielt med tags. Hvis de har dårlige tags så er det veldig vanskelig å finne fram dokumentene man trenger</div>
+                <div class="rad">DAM er bygd opp på samme måte som CCMS og DMS med at det er i grunn en database for data. Det gir deg muligheten til å lett søke opp det du trenger, og det er lett å dele dataen med andre. Sånn som de CCMS og DMS så har den problemet med implementering. Det koster mye å legge inn alle digitale dataene i et system.</div>
+            </div>
+            
+         </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://twitter.com/hiofnorge">Twitter</a></li>
+            <li><a href="https://www.facebook.com/hiofnorge/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/hiofnorge/">Instagram</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
